@@ -7,6 +7,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
 .filter-container {
     display: flex;
     justify-content: center;
@@ -102,7 +109,7 @@ select {
 .shoe-image {
     width: 100%;
     object-fit: cover;
-    height: 350px;
+    height: 380px;
 }
 
 .shoe-details {
@@ -130,11 +137,6 @@ select {
     color: #33924a;
 }
 
-.shoe-amenities {
-    display: flex;
-    gap: 8px;
-}
-
 .shoe-amenities p {
     font-weight: 400;
     color: rgb(155, 162, 169);
@@ -146,7 +148,7 @@ select {
     width: 100%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    height: 350px;
+    height: 380px;
 }
 
 .swiper-pagination {
@@ -160,24 +162,6 @@ select {
     background: rgb(255, 255, 255);
     width: 16px;
     height: 16px;
-}
-
-
-.shoe-description {
-    font-weight: 300;
-    margin-top: 16px;
-    padding: 0px 60px;
-    line-height: 150%;
-}
-
-.booking-button {
-    padding: 12px 16px;
-    margin-top: 30px;
-    background-color: #33924a;
-    border-radius: 8px;
-    border: none;
-    color: white;
-    font-size: 16px;
 }
 
 

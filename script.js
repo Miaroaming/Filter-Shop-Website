@@ -3,44 +3,44 @@ const shoes = [{
     name: "Old Fashioned Chic Platform Boots",
     type: "Knee High Boots, Platforms",
     price: "$255.00",
-    image1: "./images/flowerboots.webp",
-    image2: "./images/flowerboots2.webp",
+    image1: "./images/flowerboots2.webp",
+    image2: "./images/flowerboots.webp",
     image3: "./images/flowerboots3.webp"
 },
 {
     id: 2,
-    name: "Sharp Sheriff Shine Cowboy Boots - Silver",
-    type: "Glitzy",
-    price: "$235.00",
-    image1: "./images/cowboy.webp",
-    image2: "./images/cowboy2.webp",
-    image3: "./images/cowboy3.webp"
+    name: "Sheriff Shine Cowboy Boots - Ziggy",
+    type: "Glitzy, Kooky",
+    price: "$263.00",
+    image1: "./images/ziggy2.webp",
+    image2: "./images/ziggy.webp",
+    image3: "./images/ziggy3.webp"
 },
 {
     id: 3,
-    name: "Snuggle Wonderland Platform Boots - Pink",
-    type: "Cutesy, Platforms",
-    price: "$205.00",
-    image1: "./images/cutepink1.webp",
-    image2: "./images/cutepink2.webp",
-    image3: "./images/cutepink3.webp"
+    name: "Lexus Platform Boots - Blue",
+    type: "Glitzy, Platforms",
+    price: "$145.00",
+    image1: "./images/shinyblue2.webp",
+    image2: "./images/shinyblue.webp",
+    image3: "./images/shinyblue3.webp"
 },
 {
     id: 4,
     name: "Blushin' n' Crushin' Marabou Heels - Lime Green",
     type: "Cutesy, Platforms",
     price: "$118.00",
-    image1: "./images/greenfluff.webp",
-    image2: "./images/greenfluff2.webp",
-    image3: "./images/greenfluff3.webp"
+    image1: "./images/greenfluff2.webp.webp",
+    image2: "./images/greenfluff.webp",
+    image3: "./images/greenfluff3.webp.webp"
 },
 {
     id: 5,
     name: "Scandalous Seduction Heeled Boots - Black",
-    type: "Alternative Style, Knee High Boots",
+    type: "Knee High Boots",
     price: "$237.00",
     image1: "./images/witch1.webp",
-    image2: "./images/witch2.webp",
+    image2: "./images/witch.webp",
     image3: "./images/witch3.webp"
 },
 {
@@ -48,8 +48,8 @@ const shoes = [{
     name: "Sharp Sheriff Shine Cowboy Boots - Red",
     type: "Glitzy, Kooky",
     price: "$235.00",
-    image1: "./images/redcowboy.webp",
-    image2: "./images/redcowboy2.webp",
+    image1: "./images/redcowboy1.webp",
+    image2: "./images/redcowboy.webp",
     image3: "./images/redcowboy3.webp"
 },
 {
@@ -57,8 +57,8 @@ const shoes = [{
     name: "Bubblegum Obsidian Pocket Combat Boots",
     type: "Cutesy, Knee High Boots",
     price: "$201.00",
-    image1: "./images/pinkcombat1.webp",
-    image2: "./images/pinkcombat2.webp",
+    image1: "./images/pinkcombat2.webp",
+    image2: "./images/pinkcombat1.webp",
     image3: "./images/pinkcombat3.webp"
 },
 {
@@ -66,8 +66,8 @@ const shoes = [{
     name: "Zuri Metallic Snow Ankle Boots - Silver",
     type: "Kooky, Cutesy",
     price: "$40.00",
-    image1: "./images/silverpuff.webp",
-    image2: "./images/silverpuff2.webp",
+    image1: "./images/silverpuff2.webp",
+    image2: "./images/silverpuff.webp",
     image3: "./images/silverpuff3.webp"
 },
 {
@@ -75,8 +75,8 @@ const shoes = [{
     name: "Metamorphic Butterfly Boots - Silver",
     type: "Kooky, Cutesy, Glitzy",
     price: "$300.00",
-    image1: "./images/butterfly.webp",
-    image2: "./images/butterfly2.webp",
+    image1: "./images/butterfly2.webp",
+    image2: "./images/butterfly.webp",
     image3: "./images/butterfly3.webp"
 },
 {
@@ -84,8 +84,8 @@ const shoes = [{
     name: "How Sweet It Is Combat Boots - Black/Pink",
     type: "Kooky, Cutesy, Platforms",
     price: "$189.00",
-    image1: "./images/swirl.webp",
-    image2: "./images/swirl2.webp",
+    image1: "./images/swirl2.webp",
+    image2: "./images/swirl.webp",
     image3: "./images/swirl3.webp"
 },
 {
@@ -93,8 +93,8 @@ const shoes = [{
     name: "Holy Revelation Platform Heels - Pink",
     type: "Cutesy, Platforms, Glitzy",
     price: "$216.00",
-    image1: "./images/pinkchain.webp",
-    image2: "./images/pinkchain2.webp",
+    image1: "./images/pinkchain2.webp",
+    image2: "./images/pinkchain.webp",
     image3: "./images/pinkchain3.webp"
 },
 {
@@ -102,8 +102,8 @@ const shoes = [{
     name: "Happy Daze Platforms",
     type: "Kooky, Platforms",
     price: "$173.00",
-    image1: "./images/rainbow.webp",
-    image2: "./images/rainbow2.webp",
+    image1: "./images/rainbow2.webp",
+    image2: "./images/rainbow.webp",
     image3: "./images/rainbow3.webp"
 },
 {
@@ -111,17 +111,17 @@ const shoes = [{
     name: "Traitor Boots - Pink Fur",
     type: "Kooky, Platforms, Cutesy",
     price: "$112.00",
-    image1: "./images/fur.webp",
-    image2: "./images/fur2.webp",
+    image1: "./images/fur2.webp",
+    image2: "./images/fur.webp",
     image3: "./images/fur3.webp"
 },
 {
     id: 14,
     name: "It’s Always Greener Platform Mary Janes",
-    type: "Kooky, Platforms, Cutesy",
+    type: "Kooky, Platforms",
     price: "$96.00",
-    image1: "./images/grass.webp",
-    image2: "./images/grass2.webp",
+    image1: "./images/grass2.webp",
+    image2: "./images/grass.webp",
     image3: "./images/grass3.webp"
 },
 {
@@ -129,8 +129,8 @@ const shoes = [{
     name: "Glam Life Ankle Boots",
     type: "Cutesy, Glitzy",
     price: "$30.00",
-    image1: "./images/purple.webp",
-    image2: "./images/purple2.webp",
+    image1: "./images/purple2.webp",
+    image2: "./images/purple.webp",
     image3: "./images/purple3.webp"
 },
 {
@@ -138,8 +138,8 @@ const shoes = [{
     name: "Psychedelic Fairytale Double Stack Traitor Boots - White",
     type: "Cutesy, Kooky, Platforms",
     price: "$253.00",
-    image1: "./images/mushroom.webp",
-    image2: "./images/mushroom2.webp",
+    image1: "./images/mushroom2.webp",
+    image2: "./images/mushroom.webp",
     image3: "./images/mushroom3.webp"
 },
 {
@@ -147,8 +147,8 @@ const shoes = [{
     name: "Love at Every Corner Platform Heels - White",
     type: "Cutesy, Platforms, Glitzy",
     price: "$196.00",
-    image1: "./images/blueprint.webp",
-    image2: "./images/blueprint2.webp",
+    image1: "./images/blueprint2.webp",
+    image2: "./images/blueprint.webp",
     image3: "./images/blueprint3.webp"
 },
 {
@@ -156,8 +156,8 @@ const shoes = [{
     name: "Witty Persuaions Platform Sandals",
     type: "Cutesy, Platforms, Glitzy",
     price: "$194.00",
-    image1: "./images/blueruffle.webp",
-    image2: "./images/blueruffle2.webp",
+    image1: "./images/blueruffle2.webp",
+    image2: "./images/blueruffle.webp",
     image3: "./images/blueruffle3.webp"
 },
 {
@@ -165,18 +165,18 @@ const shoes = [{
     name: "Carefree Muse Platform Sandals - Green",
     type: "Cutesy, Platforms",
     price: "$251.00",
-    image1: "./images/limesandals.webp",
-    image2: "./images/limesandals2.webp",
+    image1: "./images/limesandals2.webp.webp",
+    image2: "./images/limesandals.webp",
     image3: "./images/limesandals3.webp"
 },
 {
     id: 20,
-    name: "Carefree Muse Platform Sandals - Green",
+    name: "Snuggle Wonderland Platform Boots - Pink",
     type: "Cutesy, Platforms",
-    price: "$251.00",
-    image1: "./images/limesandals.webp",
-    image2: "./images/limesandals2.webp",
-    image3: "./images/limesandals3.webp"
+    price: "$205.00",
+    image1: "./images/cutepink1.webp",
+    image2: "./images/cutepink.webp",
+    image3: "./images/cutepink4.webp"
 },
 
 ];
