@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mapbox css -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- MapBox is looking for a container -->
+    <div class="map-container">
+        <div id="map"></div>
+        <!-- create empty divs for my markers -->
+        <div id="custom-marker1"></div>
+    </div>
+
+       <!-- Create a fly to button -->
+       <button id="fly-to-shop">Fly to Mimi Shoe's Shop</button>
+
+
+    <!-- mapbox js -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+</body>
+</html>
